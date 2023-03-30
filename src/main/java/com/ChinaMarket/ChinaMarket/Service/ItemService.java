@@ -37,8 +37,8 @@ public class ItemService {
         //prepare the response Dto
 
         ItemResponseDto itemResponseDto=ItemResponseDto.builder()
-                .price(product.getPrice())
                 .productName(product.getProductName())
+                .price(product.getPrice())
                 .category(product.getCategory())
                 .productStatus(product.getProductStatus())
                 .build();
